@@ -1,0 +1,38 @@
+.formHobby{
+    height: 500px;
+    width: 250px;
+    background-color: wheat;
+    box-shadow: 0 10px 10px rgba(0,0,0,.5);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.formHobby form {
+    display: flex;
+    position: absolute;
+    bottom:0;
+    margin:10px;
+    height: 30px;
+}
+.formHobby form  input {
+    width: 190px;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    border-left:none;
+    border-right: none;
+    border-top:none;
+    outline: none;
+}
+.formHobby form input:focus{
+    border-bottom: 2px solid black;
+}
+.formHobby form button{
+    width: 30px;
+    margin-left: 10px;
+    background-color: transparent;
+    border:0px solid white
+}
+.imgHeader img{
+    height:80px;
+    width: 200px;
+}

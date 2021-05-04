@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+.hobbyListItem{
+    margin:10px;
+    list-style-type: none;
+    font-family: "Itim",sans-serif;
+    font-size: x-large;
+    height: 350px;
+    overflow-y: scroll;
+}
+.hobbyListItem::-webkit-scrollbar {
+    display: none;
+}
